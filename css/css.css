@@ -41,6 +41,8 @@ body {
     background-color: transparent;
 }
 
+
+
 .second {
     margin-top: 75px;
     padding: 0px 160px 100px 160px;
@@ -107,3 +109,100 @@ body {
     transform: rotate(10deg);
     opacity: 50%;
 }
+
+@media screen and (max-width: 1600px) {
+    .card-box {
+        width: 300px;
+    }
+   }
+   @media screen and (max-width: 1450px) {
+    .card-box {
+        width: 250px;
+    }
+   }
+   @media screen and (max-width: 1280px) {
+    .navbar {
+        text-align: center;
+        display: block;
+    }
+    .nav-box {
+        margin-top: 20px;
+    }
+    .nav-buttons {
+        margin-top: 30px;
+    }
+    .card-box {
+        width: 150px;
+    }
+    .second-text {
+        width: 300px;
+    }
+   }
+   @media screen and (max-width: 1024px) {
+    .card-box {
+        width: 150px;
+    }
+   }
+   @media screen and (max-width: 1024px) {
+    .card-box {
+        width: 150px;
+    }
+   }
+   @media screen and (max-width: 968px) {
+    .nav-box {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .second-nav {
+        text-align: center;
+    }
+    .second-txt {
+        text-align: center;
+        display: block;
+    }
+    .second-text {
+        width: auto;
+    }
+    .second-cards {
+        display: block;
+    }
+    .card-box {
+        margin: auto;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    .third {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
+   }
+   @media screen and (max-width: 768px) {
+    .navbar {
+    padding: 25px 30px;
+    }
+    .nav-box {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .second {
+    padding: 0px 60px 50px 30px;
+    }
+   }
+   @media screen and (max-width: 450px) {
+    .navbar {
+    padding: 25px 30px;
+    }
+    .nav-box {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .second {
+    padding: 0px 60px 50px 30px;
+    }
+    .card-box {
+        width: 200px;
+    }
+   }
